@@ -1,0 +1,279 @@
+@media screen and (max-width:1200px) {
+
+    /* Genres-Station */
+    .music-station {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    /* main-tag */
+    main section h3 {
+        text-align: center;
+        margin: 2rem 0px;
+    }
+
+    /* Poular Artist */
+    .artist-item {
+        width: 125px;
+        margin: 0px 1rem;
+    }
+
+    /* Latest-Release-section */
+    .release-body {
+        justify-content: center;
+    }
+
+    .release-item {
+        width: 75%;
+    }
+
+    .release-item img {
+        min-width: 90px;
+        min-height: 90px;
+    }
+
+    /* Genres-Station */
+    .genres-body {
+        justify-content: space-evenly;
+    }
+
+    .music-genre {
+        width: 125px;
+        height: 125px;
+        margin: 0px 1rem;
+        margin-top: 0.5rem;
+    }
+
+    /* latest-songs-english */
+    .latest-songs-body {
+        justify-content: center;
+    }
+
+    .latest-songs-item {
+        width: 25%;
+        margin-top: 0.5rem;
+        margin-right: 1rem;
+    }
+
+    .latest-songs-item img {
+        width: 80%;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    /* Header */
+    nav .favourites {
+        display: none;
+    }
+
+    nav .search-bar {
+        display: none;
+    }
+
+    nav .notification-bell {
+        display: none;
+    }
+
+    /* 
+    .responsive-navbar {
+        display: flex;
+    } */
+
+    .search-bar {
+        width: 50%;
+    }
+
+    .search-bar input {
+        width: 100%;
+    }
+
+    /* main-body */
+    .main-body {
+        flex-direction: column;
+    }
+
+    main {
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    /* slider section */
+    .slider {
+        flex-direction: row;
+        height: 30vh;
+    }
+
+    #active {
+        width: 80%;
+        height: 100%;
+    }
+
+    /* Poular Artist */
+    .artist-item {
+        max-width: 125px;
+        margin: 0px 1.5rem;
+    }
+
+    /* Genres-Station */
+    .genres-station {
+        padding: 0px;
+    }
+
+    .music-genre {
+        width: 125px;
+        margin: 0.5rem 1.5rem;
+    }
+
+    /* Pick-Your-Mood */
+    .mood-body {
+        flex-direction: column;
+    }
+
+    .mood {
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    /* QUEUE Aside section */
+    .queue-header {
+        background-color: #0c1129;
+        border-bottom: 1px solid #fff;
+    }
+
+    aside.queue {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .queue-header {
+        justify-content: space-around;
+    }
+
+    .queue-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .queue-item {
+        width: 40%;
+        margin: 1rem;
+    }
+
+}
+
+@media screen and (max-width:572px) {
+
+    /* main-header */
+    .responsive-navbar {
+        flex-direction: column;
+    }
+
+    .navbar-top {
+        width: 80%;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+    }
+
+    .search-bar {
+        width: 80%;
+    }
+
+    /* Latest-Release-section */
+    .release-item {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* Poular Artist */
+    .artist-item {
+        width: 100px;
+    }
+
+    /* Genres-Station */
+    .music-genre {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* pick-your-mood */
+    .mood {
+        width: 90%;
+    }
+
+    /* latest-songs-english */
+    .latest-songs-body {
+        justify-content: space-evenly;
+    }
+
+    .latest-songs-item {
+        width: 22%;
+    }
+
+    .latest-songs-item img {
+        width: 100%;
+    }
+
+
+    /* QUEUE Aside section */
+    .queue-body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .queue-item {
+        width: 80%;
+        margin: 1rem;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    /* slider section */
+    .slider {
+        height: 20vh;
+    }
+
+    /* Poular Artist */
+    .artist-item {
+        width: 60px;
+    }
+
+    .artist-item p {
+        font-size: 0.5rem;
+    }
+
+    /* Genres-Station */
+    .music-genre {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* latest-songs-english */
+    .latest-songs-item {
+        margin: 0.5rem 0px;
+        margin-right: 0.5rem;
+        width: 90px;
+    }
+
+}
