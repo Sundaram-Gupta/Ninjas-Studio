@@ -207,7 +207,7 @@ button.mic-icon {
 
 main {
     max-width: 70%;
-/*     max-height: 100vh; */
+    max-height: 100vh;
     overflow-y: scroll;
 }
 
